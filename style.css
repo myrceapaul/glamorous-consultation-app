@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f3f6;
+    color: #333;
+}
+
+.app {
+    max-width: 600px;
+    margin: auto;
+    min-height: 100vh;
+}
+
+header {
+    background: #6b2d5c;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0;
+    letter-spacing: 4px;
+}
+
+header p {
+    margin: 5px 0;
+    letter-spacing: 3px;
+}
+
+header span {
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+main {
+    padding: 25px 20px;
+}
+
+button {
+    width: 100%;
+    padding: 18px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    background: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+button:active {
+    transform: scale(0.98);
+}
